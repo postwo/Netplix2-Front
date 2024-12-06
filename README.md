@@ -4,6 +4,9 @@ npx create-react-app [생성할 이름]
 # 실행 명령어
 npm run start
 
+# 라우터 설치
+npm install react-router-dom
+
 # git bash 파일경롱 이동
 cd 이동경로
 
