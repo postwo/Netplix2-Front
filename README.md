@@ -17,6 +17,10 @@ cd .\이동경로
 package.json에다가  "proxy":"http://localhost:8080", 이거를 추가해주면 프록시 설정이 완료된거다.
 
 
+# 카카오 로그인 에러 뜨는 이유
+KakaoAuthRedirect.js:24  카카오 로그인 실패: TypeError: Cannot read properties of null (reading 'accessToken')
+# 해결방안 
+메인 index.js에서  <React.StrictMode> 이부분을 지운다.
 
 npm error code ERESOLVE
 npm error ERESOLVE unable to resolve dependency tree
