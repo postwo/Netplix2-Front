@@ -12,6 +12,7 @@ function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);  // 로그인 상태 관리
 
   useEffect(() => {
+    //localStorage에서 token값을 가지고 처리
       const token = localStorage.getItem('token');
       console.log('token=', token)
       if (token) {
